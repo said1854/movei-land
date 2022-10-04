@@ -10,7 +10,7 @@ const App = () => {
   const searchMovies = async (title)=>{
     const response = await fetch(`${url}&s=${title}`);
     const data = await response.json();
-    console.log(data);
+    console.log(data.Search[3]);
   }
   
 
