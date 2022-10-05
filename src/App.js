@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import Card from './components/Card';
+import './App.css';
 
 const apikey = '3399fc3f';
 const url = `http://www.omdbapi.com/?apikey=${apikey}`
@@ -18,7 +19,6 @@ const App = () => {
   return (<>
     <h1>App</h1>
     <Card />
-    <p> Simple paragraph</p>
     </>)
 }
 
